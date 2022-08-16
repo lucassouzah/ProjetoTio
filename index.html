@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Eduardo Pisos</title>
+</head>
+<body>
+    <header>
+        <div class="menu-content">
+           <div>
+            <img class="logo" src="img/logo.png" >
+           </div>
+            <nav class="header-menu">
+                <ul class="list-itens">
+                    <li ><a href="#">HOME</a></li>
+                    <li ><a href="#">SERVIÇOS</a></li>
+                    <li ><a href="#">CONTATO</a></li>
+                    <li ><a href="https://www.facebook.com/eduardo.luciano.1088"><i class="fab fa-facebook-f"></i></a></li>
+                    <li ><a href="https://www.instagram.com/eduardo.luciano.1088/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <h1 class="titulo">Pisos Vinílicos, Rodapés e Carpetes</h1>
+            <h2 class="subtitulo">Venha já, realizar seu orçamento!</h2>
+            <div class="buttons">
+                <button class="btn-exp">SERVIÇOS</button>
+                <button class="btn-personal">Realizar Orçamento</button>
+            </div>
+            <script type="text/javascript"  src="btn.js"></script>
+            <script>
+                VanillaTilt.init(document.querySelectorAll(".buttons"),{
+                    max: 25,
+		            speed: 300,
+                    glare: true, 
+                    "max-glare": 1,
+                });
+            </script>
+            <div class="sub-content">
+                <div class="cards">
+                    <div class="content-card">
+                        <img class="tam-img" src="img/pisovini.jpg" >
+                        <div class="btn-card">
+                            <button class="botao">Pisos Vinílicos</button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="cards">
+                    <div class="content-card">
+                        <img class="tam-img" src="img/rodapes.jpg" >
+                        <div class="btn-card">
+                            <button class="botao">Rodapés</button>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="content-card">
+                        <img class="tam-img" src="img/carpete.jpg" >
+                        <div class="btn-card">
+                            <button class="botao">Carpetes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
